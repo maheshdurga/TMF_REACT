@@ -1,0 +1,20 @@
+.navbox {
+  width: 100%;
+  padding:rem;
+  display:flex;
+  justify-content: flex-end;
+  gap: rem;
+}
+
+.navbox a {
+  color: #070101;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 10px;
+  transition: background 0.3s;
+}
+
+.navbox a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
